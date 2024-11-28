@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "fffe19f1-6db3-46d0-8249-0c66cdfb2bb9",
+		"name": "Current_City_Weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38175949"
+	},
+	"item": [
+		{
+			"name": "api.openweathermap.org/data/2.5/Weather?q=Torontoappid={{API_KEY}}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=461c465af010968d6dbc72a748b1a651",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Toronto"
+						},
+						{
+							"key": "appid",
+							"value": "461c465af010968d6dbc72a748b1a651"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
